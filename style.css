@@ -1,0 +1,80 @@
+body {
+    background: #DD4E4E;
+    font-family: 'Maven Pro', sans-serif;
+    text-align: center;
+    padding: 0;
+}
+
+.container {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    margin-top: 80px;
+    left: 50%;
+    width: 60%;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#name {
+    text-align: center;
+    font-weight: 500;
+    margin-top: 32px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+div.item {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+tr .item1 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    background: red;
+}
+
+.switch-custom a {
+    background-color: white;
+}
+
+table {
+    width: 100%;
+    /* color: white; */
+    max-width: 960px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+th,
+td {
+    width: 33%;
+    max-width: 320px;
+}
+
+th {
+    font-size: 2.25em;
+    font-weight: 500;
+}
+
+#gpa {
+    font-weight: 500;
+    border: 2px solid white;
+    width: 216px;
+    margin: auto;
+    line-height: 64px;
+}
+
+.buttons {
+    width: 250px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}

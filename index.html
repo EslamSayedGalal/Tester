@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .item1 {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1 id="name">GPA Calculator</h1>
+        <table>
+            <!-- <tr class="header">
+                <th>Courses</th>
+                <th>Grade</th>
+                <th>Hours</th>
+            </tr> -->
+            <tr>
+                <div class="header">
+                    <p>Courses</p>
+                    <p>Grades</p>
+                    <p>Hours</p>
+                </div>
+            </tr>
+            <tr>
+                <div class="item">
+                    <div class="title">
+                        Course 1
+                    </div>
+                    <!-- <div> -->
+                    <!-- <td> -->
+                    <div class="selectfield">
+                        <select id="row1Select">
+                                <option value="" disabled selected>Select</option>
+                                <option value="A+">A+</option>
+                                <option value="A">A</option>
+                                <option value="B+">B+</option>
+                                <option value="B">B</option>
+                                <option value="C+">C+</option>
+                                <option value="C">C</option>
+                                <option value="D+">D+</option>
+                                <option value="D">D</option>
+                                <option value="F">F</option>
+                        </select>
+                    </div>
+                    <!-- </td> -->
+                    <!-- </div> -->
+                    <!-- <div> -->
+                    <!-- <td> -->
+                    <div class="switch-toggle">
+
+                        <input id="row1opt1" name="view" type="radio" checked>
+                        <label for="row1opt1" onclick="">1</label>
+
+                        <input id="row1opt2" name="view" type="radio">
+                        <label for="row1opt2" onclick="">2</label>
+
+                        <input id="row1opt3" name="view" type="radio">
+                        <label for="row1opt3" onclick="">3</label>
+
+                        <a></a>
+                    </div>
+                    <!-- </td> -->
+                    <!-- </div> -->
+                </div>
+            </tr>
+
+        </table>
+        <div class="buttons">
+            <button type="button" class="addButton" onclick="addElement()">ADD</button>
+            <button type="button" class="calculateButton" onclick="calculate()">CALCULATE</button>
+        </div>
+        <h1 id="gpa" class="hidden">GPA : </h1>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
